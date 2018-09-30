@@ -1,0 +1,31 @@
+@import '../../scss/variables';
+
+
+.top-nav{
+	background: $primary-color;
+	padding: 1.5rem 0;
+}
+
+.logo img{
+	width: 5rem;
+}
+
+.navbar-nav li{
+	font-size: 1.3rem;
+	text-transform: uppercase;
+	letter-spacing: .1rem;
+	margin-right: 3rem;
+	font-weight: 700;
+}
+
+.navbar-nav li a{
+	color: #fff;
+}
+
+.primary-color{
+	background: $primary-color;
+}
+
+
+//-------------------------------
+

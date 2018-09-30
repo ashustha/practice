@@ -1,0 +1,47 @@
+/* You can add global styles to this file, and also import other style files */
+
+@import 'mixin';
+
+*,
+*::after,
+*::before{
+	margin: 0;
+	padding: 0;
+	box-sizing: inherit;
+}
+
+html{
+	font-size: 62.5%;
+}
+
+body{
+	font-family: 'Lato', sans-serif;
+	background: #f3f3f3;
+	font-weight: 400;
+	line-height: 1.7;
+	color: #777777;
+	box-sizing: border-box;
+} 
+
+.btn-cart{
+	@include cartBtn;
+}
+
+ul li{
+	list-style-type: none;
+}
+
+.form-control{
+	height: 4rem;
+	font-size: 1.6rem;
+}
+
+.form-control:focus{
+	box-shadow: none;
+}
+
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+}

@@ -1,0 +1,22 @@
+@import 'variables';
+
+@mixin cartBtn {
+	font-size: 1.2rem;
+	color: $text-color;
+	text-transform: uppercase;
+	background-color: $btn-color;
+	font-weight: 700;
+	letter-spacing: .1rem;
+	padding: .8rem 0;
+}
+
+@mixin buyNow{
+	font-size: 1.2rem;
+	color: $text-color;
+	text-transform: uppercase;
+	background-color: $btn-color;
+	font-weight: 700;
+	letter-spacing: .1rem;
+	padding: 1rem 0;
+	width: 150px;
+}

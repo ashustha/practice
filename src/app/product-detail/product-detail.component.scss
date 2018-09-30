@@ -1,0 +1,102 @@
+@import '../../scss/mixin';
+@import '../../scss/variables';
+.inner-wrapper{
+	background-color: #ffffff;
+	padding: 13px;
+}
+
+.product-img img{
+	width: 100%;
+}
+
+.info h3{
+	font-size: 1.4rem;
+	color: #C5C5C5;
+}
+
+.price{
+	margin: 2rem 0;
+	border-bottom: 1px solid #eee;
+
+	h3{
+		font-size: 4.5rem;
+		font-weight: 500;
+	}
+}
+
+label{
+	font-size: 1.6rem;
+}
+
+
+.offer{
+	border-bottom: 1px solid #f2f2f2;
+	margin-bottom: 2rem;
+}
+
+.offer span{
+	padding-right: 1rem;
+}
+
+.offer p{
+	font-size: 1.4rem;
+	padding-bottom: 2rem;
+    margin-bottom: 0;
+}
+
+.buy-btn{
+	@include buyNow;
+}
+
+.about{
+	background: #f3f3f3;
+	padding: 1.3rem;
+	margin-bottom: 2rem;
+
+}
+
+.about ul{
+	display: flex;
+	justify-content: space-around;
+}
+
+.about ul li{
+	display: inline-block;
+	font-size: 1.2rem;
+	text-align: left;
+}
+
+.about ul li span{
+	display: block;
+}
+
+.about ul li span:first-child{
+	text-transform: uppercase;
+	color: #333;
+	font-weight: 700;
+}
+
+.otherInfo{
+	background: #f3f3f3;
+	padding: 1.3rem;
+
+}
+
+.otherInfo h1{
+	font-size: 1.6rem;
+	color: #333;
+	font-weight: 500;
+	padding-bottom: .5rem;
+	border-bottom: 1px solid #B7B7B7;
+}
+
+.other h2{
+	font-size: 1.6rem;
+	color:#333;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+
+.otherInfo p{
+	font-size: 1.4rem;
+}
