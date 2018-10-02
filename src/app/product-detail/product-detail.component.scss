@@ -1,5 +1,10 @@
 @import '../../scss/mixin';
 @import '../../scss/variables';
+
+.main-wrapper{
+	padding: 3rem 0;
+}
+
 .inner-wrapper{
 	background-color: #ffffff;
 	padding: 13px;
@@ -99,4 +104,28 @@ label{
 
 .otherInfo p{
 	font-size: 1.4rem;
+}
+
+
+//-------------------------------------
+
+
+.breadcrumb{
+	margin-bottom: 2rem;
+    background-color: transparent; 
+    border-radius: 0;
+    border-bottom: 1px solid #d4d4d4;
+}
+
+.breadcrumb  li{
+	font-size: 1.4rem;
+	padding: 0 1rem;
+}
+
+.breadcrumb-item+.breadcrumb-item::before {
+    display: inline-block;
+    padding-right: 1.5rem;
+    color: #6c757d;
+    content: ">";
+    font-size: 1.8rem;
 }

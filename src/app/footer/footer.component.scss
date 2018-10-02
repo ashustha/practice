@@ -1,0 +1,33 @@
+@import '../../scss/variables';
+
+.footer-dark {
+  padding:50px 0;
+  color:$primary-color;
+  background-color:#282d32;
+}
+
+.footer-dark h3{
+	text-transform: uppercase;
+	font-size: 1.8rem;
+	letter-spacing: .1rem;
+	color: $text-color;
+	font-weight: 700;
+}
+
+.footer-dark .item ul li {
+	font-size: 1.6rem;
+}
+
+.footer-dark .item ul li a{
+	color: #a9a9a9;
+}
+
+.footer-dark .text p{
+	font-size: 1.4rem;
+	color: #a9a9a9;
+}
+
+.footer-dark .copyright{
+	font-size: 1.4rem;
+	color: #a9a9a9;
+}
