@@ -6,12 +6,21 @@
 }
 
 .inner-wrapper{
-	background-color: #ffffff;
-	padding: 13px;
+	padding: 2rem;
+}
+
+.product-info{
+	margin-bottom: 5rem;
+	background: #fff;
+	padding: 2rem;
+}
+
+.product-img{
+	text-align: center;
 }
 
 .product-img img{
-	width: 100%;
+	width: 20rem;
 }
 
 .info h3{
@@ -26,6 +35,7 @@
 	h3{
 		font-size: 4.5rem;
 		font-weight: 500;
+		color: $btn-color;
 	}
 }
 
@@ -128,4 +138,130 @@ label{
     color: #6c757d;
     content: ">";
     font-size: 1.8rem;
+}
+
+//------------------Related products
+
+.related-products h1{
+	margin-bottom: 2rem;
+}
+
+.card{
+	margin-bottom: 2rem;
+}
+
+.main-title h1{
+	font-size: 2.6rem;
+}
+
+.main-title h2{
+	font-size: 1.4rem;
+}
+
+.product{
+	position: relative;
+	height: 34rem;
+	background: #fff;
+	box-shadow: 0 .5rem 1.5rem rgba(0,0,0,.025);
+	overflow:hidden;
+}
+
+.product .imgbox{
+	height: 100%;
+	box-sizing: border-box;
+}
+
+.product .imgbox img{
+	display: block;
+	width: 20rem;
+	margin: 2rem auto 0;
+}
+
+.details{
+	position: absolute;
+	width: 100%;
+	bottom: -16.2rem;
+	background: #fff;
+	padding: 1rem;
+	box-sizing: boder-box;
+	box-shadow: 0 0 0 rgba(0,0,0,0);
+	transition: all .5s;
+}
+
+.product:hover .details{
+	bottom:0;
+	box-shadow: 0 -.5rem 1.5rem rgba(0,0,0,.25);
+}
+
+.details h2{
+	margin: 0;
+	padding: 0;
+	font-size: 1.6rem;
+	width: 100%;
+}
+
+.details h2 span{
+	font-size: 1.2rem;
+	color: #ccc;
+	font-weight: normal;
+}
+
+.details .price{
+	position: absolute;
+	top: 1rem;
+  	right : 1rem;
+	font-weight: bold;
+	color: #2ecc71;
+	font-size: 1.8rem;
+}
+
+label{
+	display: block;
+	margin-top: .5rem;
+	font-weight: bold;
+	font-size: 1.4rem;
+}
+
+.product ul{
+	display: flex;
+	margin-top: 0;
+	padding: 0;
+}
+
+.product ul li{
+	list-style: none;
+	margin: .5rem .5rem 0;
+	font-size: 1.2rem;
+	font-weight: normal;
+	color: #ccc;
+
+}
+
+.product ul li:first-child{
+	margin-left: 0;
+}
+
+.product ul.colors li{
+	width: 1.6rem;
+	height: 1.6rem;
+}
+
+.product ul.colors li:nth-child(1){
+	background: #ff0;
+}
+
+.product ul.colors li:nth-child(2){
+	background: #f00;
+}
+
+.product ul.colors li:nth-child(3){
+	background: #f0f;
+}
+
+.product ul.colors li:nth-child(4){
+	background: #0ff;
+}
+
+.product ul.colorts li:nth-child(5){
+	background: #00f;
 }
