@@ -10,6 +10,7 @@ import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
 import { AccessoriesComponent } from './accessories/accessories.component';
 import { HomeComponent } from './home/home.component';
+import { WomenWearComponent } from './women-wear/women-wear.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,8 @@ import { HomeComponent } from './home/home.component';
     HeaderComponent,
     FooterComponent,
     AccessoriesComponent,
-    HomeComponent
+    HomeComponent,
+    WomenWearComponent
   ],
   imports: [
    routes,
